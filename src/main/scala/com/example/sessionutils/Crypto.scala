@@ -12,7 +12,7 @@ import javax.crypto._
 import javax.crypto.spec.SecretKeySpec
 import com.typesafe.config.ConfigFactory
 
-case class CryptoException(val message: String) extends Throwable
+case class CryptoException(message: String) extends Throwable
 
 /**
  * Cryptographic utilities.
